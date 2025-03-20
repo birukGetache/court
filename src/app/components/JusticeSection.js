@@ -35,7 +35,7 @@ const JudicialStructure = () => {
             The Ambiqra Supreme Court is the highest judicial authority in the Ambiqra Regional state, responsible for overseeing senior courts and ensuring the activities administration of justice. Operating under the Ethiopian Federal Constitution and regional laws, it provides legal guidance to independent courts, ensuring uniformity in judicial decisions.
           </p>
 
-          <div className="flex justify-center gap-12 mb-12">
+          <div className="flex justify-center gap-6 sm:gap-12 mb-12">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 {/* Animated number */}
