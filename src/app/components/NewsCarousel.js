@@ -14,9 +14,9 @@ const data = [
   {
     id: 2,
     image: "/image.png",
-    title: "Implementation of the 'Smart Court' Project",
+    title: "Implementation of the &apos;sSmart Court&apos;s Project",
     description:
-      "The Amhara Supreme Court has partnered with Ethio Telecom to launch the 'Smart Court' project, aiming to digitally transform the region's judicial system.",
+      "The Amhara Supreme Court has partnered with Ethio Telecom to launch the &apos;sSmart Court&apos;s project, aiming to digitally transform the region&apos;s judicial system.",
     date: "22 Feb, 2025",
   },
   {

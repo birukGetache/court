@@ -25,7 +25,7 @@ const  EPortal = () => {
         {/* Content Text */}
         <div className="text-gray-700 text-base md:text-lg leading-relaxed mb-6">
           <p>
-            The Amhara Supreme Court's E-Portal is a fast, transparent, and user-friendly digital platform designed to enhance access to judicial services. This innovative system streamlines case management, facilitates legal document submission, and enables real-time case tracking, ensuring a seamless experience for all users. Through online case filing and tracking, individuals can submit cases and monitor their progress remotely, reducing the need for physical visits.
+            The Amhara Supreme Court&apos;s E-Portal is a fast, transparent, and user-friendly digital platform designed to enhance access to judicial services. This innovative system streamlines case management, facilitates legal document submission, and enables real-time case tracking, ensuring a seamless experience for all users. Through online case filing and tracking, individuals can submit cases and monitor their progress remotely, reducing the need for physical visits.
           </p>
         </div>
 
