@@ -1,0 +1,6 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Path for Justice Symbol -->
+  <path d="M100 10 L150 90 L50 90 Z" fill="#ffffff" />
+  <path d="M100 90 L150 170 L50 170 Z" fill="#ffffff" />
+  <circle cx="100" cy="170" r="20" fill="#ffffff" />
+</svg>
