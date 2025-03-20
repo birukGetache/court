@@ -18,7 +18,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0  py-6  w-screen flex justify-between items-center z-50 transition-colors duration-300 ${
+      className={`fixed top-0 left-0  py-14 sm:py-0  w-screen flex justify-between items-center z-50 transition-colors duration-300 ${
         isScrolled ? "bg-black bg-opacity-80" : "bg-transparent"
       }`}
     >
