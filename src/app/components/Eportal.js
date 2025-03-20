@@ -1,6 +1,6 @@
 import Image from 'next/image'; // Import the Next.js Image component
 
-export default function EPortal() {
+const  EPortal = () => {
   return (
     <div className="bg-white flex flex-col md:flex-row gap-6 md:gap-10 items-center justify-center min-h-screen p-6">
       {/* Image Section */}
@@ -39,3 +39,5 @@ export default function EPortal() {
     </div>
   );
 }
+
+export default EPortal;
