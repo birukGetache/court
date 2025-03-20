@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion"; // Add the import for motion
+import { motion } from "framer-motion"; 
 
 const JudicialStructure = () => {
   const stats = [
@@ -11,8 +11,8 @@ const JudicialStructure = () => {
   ];
   
   return (
-    <div className="relative w-full md:h-full lg:h-screen flex md:bg[url('/justice.svg')] lg:bg-[url('/justiceImage.png')]   bg-cover flex-col items-center justify-center bg-[#083c4c] text-white p-8">
-      {/* Background SVG */}
+    <div className="relative w-full min-h-screen flex flex-col items-center justify-center bg-[#083c4c] text-white p-4 md:p-8 overflow-hidden">
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/Background.svg"
@@ -22,23 +22,23 @@ const JudicialStructure = () => {
         />
       </div>
 
-      {/* Content */}
-      <div className="relative md:grid z-10 lg:gap-100 text-center lg:flex  lg:items-center">
-        <div className="p-2 sm:p-6  w-full max-w-lg bg-black/30 rounded-lg mx-auto text-white">
+      {/* Content Wrapper */}
+      <div className="relative z-10 text-center w-full max-w-4xl px-4">
+        <div className="p-4 md:p-6 w-full bg-black/30 rounded-lg mx-auto text-white">
           {/* Title */}
-          <h1 className="text-3xl font-bold mb-4 font-serif">
+          <h1 className="text-3xl font-bold mb-4 font-serif break-words">
             JUDICIAL STRUCTURE & AUTHORITY
           </h1>
 
           {/* Description */}
-          <p className="text-lg mb-12 max-w-2xl mx-auto">
-            The Ambiqra Supreme Court is the highest judicial authority in the Ambiqra Regional state, responsible for overseeing senior courts and ensuring the activities administration of justice. Operating under the Ethiopian Federal Constitution and regional laws, it provides legal guidance to independent courts, ensuring uniformity in judicial decisions.
+          <p className="text-lg mb-8 max-w-2xl mx-auto break-words">
+            The Ambiqra Supreme Court is the highest judicial authority in the Ambiqra Regional state, responsible for overseeing senior courts and ensuring the administration of justice. Operating under the Ethiopian Federal Constitution and regional laws, it provides legal guidance to independent courts, ensuring uniformity in judicial decisions.
           </p>
 
-          <div className="flex justify-center gap-6 sm:gap-12 mb-12">
+          {/* Statistics */}
+          <div className="flex flex-wrap justify-center gap-6 sm:gap-12 mb-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                {/* Animated number */}
                 <motion.p
                   className="text-4xl font-bold relative"
                   initial={{ opacity: 0, y: 20 }}
@@ -71,17 +71,17 @@ const JudicialStructure = () => {
         </div>
 
         {/* Mission and Vision */}
-        <div className=" sm:grid grid-cols-2 md:mt-20 md:grid-cols-1 gap-8 max-w-4xl mx-auto">
-          <div className="p-6 w-full max-w-lg bg-black/30 rounded-lg mx-auto text-white">
-            <h2 className="text-3xl font-bold mb-4 font-serif">OUR MISSION</h2>
-            <p className="text-lg font-sans">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          <div className="p-4 md:p-6 w-full bg-black/30 rounded-lg mx-auto text-white">
+            <h2 className="text-3xl font-bold mb-4 font-serif break-words">OUR MISSION</h2>
+            <p className="text-lg font-sans break-words">
               The Ambiqra Supreme Court is committed to continuing justice concerning justice and safeguarding the constitutional right of all citizens. Our mission is to provide fair, transparent, and efficient policies for people.
             </p>
           </div>
 
-          <div className="p-6 w-full max-w-lg bg-black/30 rounded-lg mx-auto text-white">
-            <h2 className="text-3xl font-bold mb-4 font-serif">OUR VISION</h2>
-            <p className="text-lg font-sans">
+          <div className="p-4 md:p-6 w-full bg-black/30 rounded-lg mx-auto text-white">
+            <h2 className="text-3xl font-bold mb-4 font-serif break-words">OUR VISION</h2>
+            <p className="text-lg font-sans break-words">
               The Ambiqra Supreme Court considers a Western transformers who are closely related against that solution; they use all law and human justice for all by which they control transformation and affect reforms, such court ensures a decisive efficiency, accountability.
             </p>
           </div>
@@ -137,7 +137,6 @@ const AnimatedCounter = ({ target }) => {
     }, [target]);
   
     return <span id={`counter-${target}`}>{count}</span>;
-  };
-  
+};
 
 export default JudicialStructure;
