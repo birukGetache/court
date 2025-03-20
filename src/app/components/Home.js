@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="bg-white w-full min-h-screen px-4 sm:px-8 overflow-hidden">
-      <div className="flex flex-col lg:grid lg:grid-cols-3 gap-6 items-center pt-20 w-full">
+      <div className="flex flex-col lg:grid lg:grid-cols-3 gap-6 items-center pt-60 w-full">
         {/* Image Section */}
         <div className="col-span-2 bg-gray-100 rounded-lg flex flex-col items-center p-4 shadow-md">
           <motion.div
