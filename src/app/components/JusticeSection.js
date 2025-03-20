@@ -24,7 +24,7 @@ const JudicialStructure = () => {
 
       {/* Content */}
       <div className="relative md:grid z-10 lg:gap-100 text-center lg:flex  lg:items-center">
-        <div className="p-6 w-full max-w-lg bg-black/30 rounded-lg mx-auto text-white">
+        <div className="p-2 sm:p-6  w-full max-w-lg bg-black/30 rounded-lg mx-auto text-white">
           {/* Title */}
           <h1 className="text-3xl font-bold mb-4 font-serif">
             JUDICIAL STRUCTURE & AUTHORITY
